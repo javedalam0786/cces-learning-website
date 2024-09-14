@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro" ,sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+    /* background-color: bisque; */
+}
+
+/* ----------------------------------stage 1------------------------------------ */
+
+.ham{
+    display:none;
+    margin-top: 18px;
+    margin-right: 25px;
+}
+
+.hide {
+    display:none;
+}
+
+.mob h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FF9500;
+}
+
+
+.mob {
+    /* outline:1px solid red; */
+    /* display: flex; */
+    right: 0;
+    top:0;
+    bottom: 0;
+    position: absolute;
+    background-color: white;
+    width: 60%;
+}
+.mob ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    /* padding: 0px 100px; */
+    list-style-type: none;
+
+}
+
+.mob ul li a{
+    text-decoration: none;
+}
+
+.mob a{
+    padding: 10px 15px;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+
+@media (max-width:768px) {
+    
+    .ham{
+        display:block;
+    }
+
+   
+}
+
+
+
+
+.nav-1{
+    background-color: #FF9500;
+    padding-block:5px;
+    margin:15px;
+    max-width: 97%;
+    margin-inline: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.home-tag{
+    padding: 10px;
+    background-color: #f1f1f3;
+    border-radius: 8px;
+    color: black;
+}
+
+.main-navbar a{
+    color: black;
+}
+
+.main-navbar img{
+    /* width: 10%; */
+    width: 60px;
+}
+
+.main-navbar{
+    display: flex;
+    max-width: 600px;
+    gap: 20px;
+    align-items: center;
+    /* margin-right: 5%; */
+}
+
+.navbar{
+    max-width: 92%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.main-navbar a{
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+   
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+#sign-in{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button a:hover{
+    background-color: #FF9500;
+    color: #FFFFFF;
+}
+
+/* ----------------------------------stage 2------------------------------------ */
+
+.main-price-section{
+    width: 85%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+.price-para{
+    max-width: 603px;
+    padding-right: 30px;
+    line-height: 20px;
+    /* opacity: 0.7; */
+    font-size: 15px;
+}
+
+/* ----------------------------------stage 3------------------------------------ */
+
+#line{
+    border: 1px solid #F1F1F3;
+    margin-top: 30px;
+}
+.a{
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    
+}
+
+.time{
+    display: flex;
+    /* max-width: 160px; */
+    /* gap: 5px; */
+    padding: 15px 15px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.month a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: small;
+
+}
+
+.month a:hover{
+    background-color: #FF9500;
+    color: #FFFFFF;
+}
+
+.price{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    margin-top: 50px;
+}
+
+.price-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.price-2{
+    max-width: 825px;
+}
+
+.price-2 p{
+padding-block: 10px;
+}
+
+
+.time{
+    display: flex;
+    /* gap: 5px; */
+    padding: 15px 15px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.month a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: small;
+
+}
+
+.month a:hover{
+    background-color: #FF9500;
+    color: #FFFFFF;
+}
+
+/* ------------------price card section------------------- */
+
+.price-card{
+    background-color: #FFFFFF;
+    max-width: 85%;
+    margin-inline: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    border-radius: 7px;
+    /* border: 1px solid green; */
+}
+
+.time-card{
+    width: 500px;
+    background-color: #F1F1F3;
+    border-radius: 8px;
+    /* margin-inline: auto; */
+    padding-bottom: 15px;
+}
+
+.Plan{
+    background-color: #FFEACC;
+    padding: 10px;
+    max-width: 90%;
+    border-radius: 8px;
+    text-align: center;
+    /* margin-inline: auto; */
+    margin: 25px auto;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    /* margin-top: 30px; */
+    margin: 30px 0px 30px 0px;
+}
+
+.main-free-plan{
+    background-color: #FFFFFF;
+    width: 90%;
+    margin-inline: auto;
+    border-radius: 8px;
+    padding: 15px 0px 0px 0px;
+}
+
+.main-free-plan h3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.free-plan{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px;
+    /* background-color: #F1F1F3; */
+    width: 90%;
+    border: 1px solid #F1F1F3;
+    margin-inline: auto;
+    border-radius: 8px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.price-button{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 15px;
+    background-color: #FF9500;
+    /* color: #FFFFFF; */
+    border-radius: 0px 0px 10px 10px;
+}
+
+.price-button button{
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF9500;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* ----------------------------------stage 4------------------------------------ */
+
+.Frequently-card-2 h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.main-frequently-card{
+    display: flex;
+    width: 85%;
+    margin-inline: auto;
+    gap: 45px;
+    padding-top: 50px;
+    /* background-color: #FFFFFF; */
+}
+
+.Frequently-card-2 p{
+    line-height: 20px;
+}
+
+.Frequently-card-2{
+    max-width: 340px;
+    padding: 20px;
+}
+
+.Frequently-button button{
+    margin-top: 30px;
+    background: none;
+    padding: 10px;
+    border: 1px solid #F1F1F3;
+    border-radius: 6px;
+}
+
+.para-plus-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #F1F1F3;
+    margin-inline: auto;
+    border-radius: 8px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.para-plus-icon-00{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #F1F1F3;
+    margin-inline: auto;
+    border-radius: 8px;
+    gap: 10px;
+    margin-bottom: 10px;
+    background-color: #F1F1F3;
+}
+
+.Frequently-para{
+    padding: 30px;
+}
+
+.Frequently-para p{
+    line-height: 20px;
+}
+
+.Frequently-second-card-2{
+    padding: 30px;
+    max-width: 700px;
+    border-radius: 9px;
+
+}
+
+.main-frequently-card{
+    padding: 50px;
+    margin-block: 50px;
+    background: #ffffff;
+}
+
+/* ----------------------------------stage 5------------------------------------ */
+
+.footer-contener{
+    background-color: #FFFFFF;
+    padding: 50px 0px 15px 0px;
+    margin-top: 50px;
+}
+
+.main-fotter{
+    max-width: 85%;
+    margin-inline: auto;
+    background-color: #FFFFFF;
+}
+
+.main-fotter-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-fotter-logo{
+    margin-bottom: 15px;
+}
+
+.main-fotter-logo img{
+    width: 45px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: none;
+    line-height: 35px;
+}
+
+.button-container img{
+    width: 20px;
+}
+
+.button-container p{
+    line-height: 40px;
+}
+
+.home p{
+    line-height: 25px;
+    opacity: 0.9;
+}
+
+.fotter-heading{
+    margin-bottom: 15px;
+}
+
+.sub-container{
+    display: flex;
+    gap: 15px;
+}
+
+.home{
+    width: 180px;
+}
+
+.social-logo-button{
+    display: flex;
+    gap: 10px;
+}
+
+.social-logo-img{
+    padding: 8px;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+}
+
+.social-logo-img img{
+    width: 30px;
+}
+
+.sub-container{
+    display: flex;
+    gap: 15px;
+}
+
+.copy-right{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main-home-container{
+    display: flex;
+    padding-block: 20px;
+}

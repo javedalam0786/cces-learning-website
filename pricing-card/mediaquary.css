@@ -1,0 +1,79 @@
+@media (max-width : 768px) {
+
+/*------------------------- Stage-1 -----------------*/
+
+    .main-navbar{
+        /* display: none; */
+        padding-inline: 20px;
+    }
+
+    .main-navbar a{
+        display: none;
+    }
+
+    .nav-1 p{
+        font-size: 14px;
+    }
+
+    .button{
+        padding-right: 0;
+    }
+
+/*------------------------- Stage-2 -----------------*/
+
+    .main-price-section{
+        display: block;
+        margin-top: 40px;
+    }
+
+    .price-para{
+        padding-top: 20px;
+    }
+
+/*------------------------- Stage-3 -----------------*/
+
+    .price-1{
+        display: block;
+    }
+    .price-card{
+        display: block;
+    }
+    .time-card{
+        width: 100%;
+    }
+
+    .price{
+        margin-bottom: 30px;
+    }
+
+/*------------------------- Stage-4 -----------------*/
+
+    .main-frequently-card{
+        display: block;
+    }
+
+    .main-frequently-card{
+        padding: 0;
+    }
+
+    .Frequently-para{
+        padding-inline: 10px;
+    }
+
+/*------------------------- Stage-5 -----------------*/
+
+    .main-fotter-1, .sub-container{
+        display: block;
+    }
+
+    .footer-contener{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        /* background-color: rebeccapurple; */
+    }
+
+    .social-logo-img{
+        margin-bottom: 20px;
+    }
+}

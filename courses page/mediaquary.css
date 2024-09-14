@@ -1,0 +1,76 @@
+@media (max-width : 768px) {
+
+/*------------------------- Stage-1 -----------------*/
+
+    .main-navbar{
+        /* display: none; */
+        padding-inline: 20px;
+    }
+
+    .main-navbar a{
+        display: none;
+    }
+
+    .nav-1 p{
+        font-size: 14px;
+    }
+
+    .button{
+        padding-right: 0;
+    }
+
+/*------------------------- Stage-2 -----------------*/
+
+    .hero1{
+        flex-direction: column;
+    }
+
+    .hero1 h1{
+        font-size: 25px;
+    }
+
+/*------------------------- Stage-3 -----------------*/
+
+    .courses-head{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .imgweb img{
+        max-width: 32%;
+        border-radius: 8px;
+    }
+
+    .p{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .num{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .i01{
+        width: 100%;
+        border-bottom: 1px solid #F1F1F3;
+        padding-bottom: 20px;
+    }
+
+/*------------------------- Stage-4 -----------------*/
+
+    .main-fotter-1, .sub-container{
+        display: block;
+    }
+
+    .footer-contener{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .social-logo-img{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,73 @@
+@media (max-width : 768px) {
+
+ /*------------------------- Stage-1 -----------------*/
+
+    .main-navbar{
+        /* display: none; */
+        padding-inline: 20px;
+    }
+
+    .main-navbar a{
+        display: none;
+    }
+
+    .nav-1 p{
+        font-size: 14px;
+    }
+
+    .button{
+        padding-right: 0;
+    }
+
+ /*------------------------- Stage-2 -----------------*/
+
+    .login-contener{
+        flex-direction: column-reverse;
+    }
+
+    .log{
+        /* border: 1px solid red; */
+        width: 90%;
+    }
+
+/*------------------------- Stage-3 -----------------*/
+
+    .para-contenat h2{
+        margin-top: 30px;
+    }
+
+    .intro-card-1{
+        margin-top: 30px;
+    }
+
+    .intro-para p{
+        padding: 10px;
+    }
+    .para-contenat {
+        max-width: 100%;
+    }
+
+    .img-person{
+        display: flex;
+    }
+
+    .arrow-img{
+        justify-content: center;
+    }
+
+/*------------------------- Stage-4 -----------------*/
+
+    .main-fotter-1, .sub-container{
+        display: block;
+    }
+
+    .footer-contener{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .social-logo-img{
+        margin-bottom: 20px;
+    }
+}

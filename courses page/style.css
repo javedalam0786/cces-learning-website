@@ -1,0 +1,358 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Be Vietnam Pro" ,sans-serif;
+
+}
+
+body{
+    /* background-color: beige; */
+    background-color: whitesmoke;
+    font-family: Be Vietnam Pro                             ;
+
+}
+
+/* -------------------------------------------header section---------------------------------------------- */
+
+.ham{
+    display:none;
+    margin-top: 18px;
+    margin-right: 25px;
+}
+
+.hide {
+    display:none;
+}
+
+.mob h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FF9500;
+}
+
+
+.mob {
+    /* outline:1px solid red; */
+    /* display: flex; */
+    right: 0;
+    top:0;
+    bottom: 0;
+    position: absolute;
+    background-color: white;
+    width: 60%;
+}
+.mob ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    /* padding: 0px 100px; */
+    list-style-type: none;
+
+}
+
+.mob ul li a{
+    text-decoration: none;
+}
+
+.mob a{
+    padding: 10px 15px;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+
+@media (max-width:768px) {
+    
+    .ham{
+        display:block;
+    }
+
+   
+}
+
+
+
+
+.nav-1{
+    background-color: #FF9500;
+    padding-block:5px;
+    margin:15px;
+    max-width: 97%;
+    margin-inline: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.home-tag{
+    padding: 10px;
+    background-color: #f1f1f3;
+    border-radius: 8px;
+    color: black;
+}
+
+.main-navbar a{
+    color: black;
+}
+
+.main-navbar img{
+    /* width: 10%; */
+    width: 60px;
+}
+
+.main-navbar{
+    display: flex;
+    max-width: 600px;
+    gap: 20px;
+    align-items: center;
+    /* margin-right: 5%; */
+}
+
+.navbar{
+    max-width: 92%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.main-navbar a{
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+   
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+#sign-in{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button a:hover{
+    background-color: #FF9500;
+    color: #FFFFFF;
+}
+
+/* ---------------------------------------------hero--------------------------------------  */
+
+.hero1{
+    display: flex;
+    margin-inline: auto;
+    justify-content: space-evenly;
+    max-width: 85%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.hero1 p{
+    max-width: 550px;
+}
+
+/* -------------------------------------------------course sec---------------------  */
+
+.webimg{
+    max-width: 85%;
+    margin-inline: auto;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+  
+.courses-view{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 95%; */
+}
+
+.courses-head{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.courses-text{
+    max-width: 940px;
+}
+
+.courses-text p{
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.view a{
+    text-decoration: none;
+    display: block;
+    padding: 12px 15px ;
+    background-color: #F1F1F3;
+    border-radius: 8px;
+    font-size: 16px;
+    color: black;
+
+  }
+
+    /* ---image --- */
+
+
+  .imgweb{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .imgweb img{
+    width: 360px;
+  }
+
+  .week{
+    margin-right: 10px;
+    background-color: white;
+    padding: 7px 10px;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+}
+
+  .p{
+
+    margin-top: 20px;
+    display: flex;
+    gap: 20px ;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --number -- */
+
+.weblast{
+    border: 1px solid #F1F1F3;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+.hadding-curr{
+
+    border: 1px solid #F1F1F3;    
+    padding: 15px 20px;
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.num{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+.i01{
+    width: 150px;
+}
+
+
+  /* -----------------------------------footer------------------------ */
+
+  .footer-contener{
+    background-color: #FFFFFF;
+    padding: 50px 0px 15px 0px;
+    margin-top: 50px;
+}
+
+.main-fotter{
+    max-width: 85%;
+    margin-inline: auto;
+    background-color: #FFFFFF;
+}
+
+.main-fotter-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-fotter-logo{
+    margin-bottom: 15px;
+}
+
+.main-fotter-logo img{
+    width: 45px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: none;
+    line-height: 35px;
+}
+
+.button-container img{
+    width: 20px;
+}
+
+.button-container p{
+    line-height: 40px;
+}
+
+.home p{
+    line-height: 25px;
+    opacity: 0.9;
+}
+
+.fotter-heading{
+    margin-bottom: 15px;
+}
+
+.sub-container{
+    display: flex;
+    gap: 15px;
+}
+
+.home{
+    width: 180px;
+}
+
+.social-logo-button{
+    display: flex;
+    gap: 10px;
+}
+
+.social-logo-img{
+    padding: 8px;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+}
+
+.social-logo-img img{
+    width: 30px;
+}
+
+.sub-container{
+    display: flex;
+    gap: 15px;
+}
+
+.copy-right{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main-home-container{
+    display: flex;
+    padding-block: 20px;
+}

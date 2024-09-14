@@ -1,0 +1,776 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro" ,sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+/* ----------------------------------stage 1------------------------------------ */
+
+.ham{
+    display:none;
+    margin-top: 18px;
+    margin-right: 25px;
+}
+
+.hide {
+    display:none;
+}
+
+.mob h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FF9500;
+}
+
+
+.mob {
+    /* outline:1px solid red; */
+    /* display: flex; */
+    right: 0;
+    top:0;
+    bottom: 0;
+    position: absolute;
+    background-color: white;
+    width: 60%;
+}
+.mob ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    /* padding: 0px 100px; */
+    list-style-type: none;
+
+}
+
+.mob ul li a{
+    text-decoration: none;
+}
+
+.mob a{
+    padding: 10px 15px;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+
+@media (max-width:768px) {
+    
+    .ham{
+        display:block;
+    }
+
+   
+}
+
+
+
+
+
+.nav-1{
+    background-color: #FF9500;
+    padding-block:5px;
+    margin:15px;
+    max-width: 97%;
+    margin-inline: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.home-tag{
+    padding: 10px;
+    background-color: #f1f1f3;
+    border-radius: 8px;
+    color: black;
+}
+
+.main-navbar a{
+    color: black;
+}
+
+.main-navbar img{
+    /* width: 10%; */
+    width: 60px;
+}
+
+.main-navbar{
+    display: flex;
+    max-width: 600px;
+    gap: 20px;
+    align-items: center;
+    /* margin-right: 5%; */
+}
+
+.navbar{
+    max-width: 92%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.main-navbar a{
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+   
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+#sign-in{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button a:hover{
+    background-color: #FF9500;
+    color: #FFFFFF;
+}
+
+/* ----------------------------------stage 2------------------------------------ */
+
+.hero-section{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#char-img{
+    width: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+#slill-p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-2{
+    width: 98%;
+    display: flex;
+    padding: 14px 30px 14px 20px;
+    background-color: white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-2 h2{
+    font-size: 30px;
+}
+
+.button-2{
+    display: flex;
+    gap: 10px;
+}
+
+.button-2 button{
+    padding: 15px 20px;
+    font-size: 18px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: black;
+    border: none;
+}
+
+.button-2 button:hover{
+    background-color: #FF9500;
+    color: #FFFFFF;
+}
+
+/* ----------------------------------stage 3------------------------------------ */
+
+
+.img-section{
+    width: 85%;
+    margin: auto;
+    background-color: #FFFFFF; 
+    border-radius: 10px; 
+}
+
+.img-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 30px 40px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+
+/* ----------------------------------stage 4------------------------------------ */
+
+.img-container{
+    margin-inline: auto;
+    width: 85%  ;
+    padding-top: 50px;
+    /* padding: 50px; */
+}
+
+.img-container img{
+    width: 1150px;
+}
+
+/* ----------------------------------stage 5------------------------------------ */
+
+.benefits-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    margin-top: 50px;
+}
+
+.benefits-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.benefits-text{
+    max-width: 900px;
+}
+
+.benefits-text p{
+padding-block: 10px;
+opacity: 0.7;
+}
+
+.view-all a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.benefits-card-1{
+    background-color: white;;
+    align-items: center;
+    width: 33%;
+    padding:20px;
+    border-radius: 9px;
+    /* outline: 1px solid red; */
+}
+.benefits-card-1 h1 {
+    float: right;
+    font-size: 48px;
+    /* clear: both; */
+}
+.benefits-card-1 img {
+    border:1px solid rgb(212, 212, 212);
+    border-radius:11px; 
+}
+.benefits-card{
+    margin: 20px auto;
+    width: 85%;
+    gap: 5px;
+    display: flex;
+    flex-wrap:wrap;
+    padding-top: 20px;
+}
+
+/* .card{
+    width: 33%;
+} */
+
+.card h4{
+    clear: both;
+}
+
+.card p{
+    padding-top: 15px;
+    opacity: 0.8;
+}
+
+.img-icon{
+    float: right;
+    margin-top: 35px;
+}
+
+.img-icon img{
+    width: 50px;
+}
+
+/* ----------------------------------stage 6------------------------------------ */
+
+.card-section-1{
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* max-width: 85%; */
+    /* margin-top: 50px; */
+    /* outline: 1px solid red; */
+    margin: 20px auto;
+    width: 85%;
+    gap: 45px;
+    display: flex;
+    flex-wrap:wrap;
+    padding-top: 20px;
+}
+
+.view-all a{
+    color: black;
+}
+
+.card-section-2{
+    padding: 2rem;
+    /* max-width: 85%; */
+    max-width: 550px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    /* outline: 1px solid red; */
+}
+
+.web-design-card {
+    display: flex;
+    justify-content: center;
+    /* max-width: 480px; */
+    /* border-radius: 10px; */
+    /* margin-inline: auto; */
+    /* padding: 10px 10px 10px 10px; */
+}
+
+.web-design-card img{
+    max-width: 490px;
+    border-radius: 10px;
+}
+
+.font-tag-p{
+    font-size: 15px;
+    padding-top: 15px;
+    opacity: 0.8;
+}
+
+.Biginner-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px 25px 0px;
+}
+
+.Weeaks{
+    border: 1px solid #f1f1f3;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.get-button {
+    text-align: center;
+    text-decoration: none;
+    padding: 18px ;
+    margin-top: 30px;
+    background-color: #f1f1f8;
+    border-radius: 10px;
+}
+
+.get-button-a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ----------------------------------stage 7------------------------------------ */
+
+.testimonials-card{
+    width: 85%;
+    margin-inline: auto;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+
+.test-card-head{
+    display: flex;
+    gap: 50px;
+}
+
+
+.testimonials-card-1{
+    max-width: 560px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    /* margin-bottom: 20px; */
+}
+
+.test-para p{
+    padding: 20px 25px;
+
+}
+
+.img-girl{
+    /* display: flex;
+    align-items: center;
+    padding: 20px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.img-girl img{
+    max-width: 50px;
+}
+
+.main-img{
+    display: flex;
+    padding: 20px 25px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCFCFD;
+    /* background-color: #FCFCFD; */
+
+    border-top: 1px solid #f1f1f8;
+
+    border-radius: 8px;
+
+    
+}
+
+.test-button button{
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.test-card-head-2{
+    display: flex;
+    gap: 50px;
+    padding-block: 30px;
+}
+
+
+
+/* ----------stage-8- pricing------------- */
+
+.price{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    margin-top: 50px;
+}
+
+.price-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.price-2{
+    max-width: 825px;
+}
+
+.price-2 p{
+padding-block: 10px;
+}
+
+
+.time{
+    display: inline-flex;
+    padding: 15px 15px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.month a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: small;
+
+}
+
+.month a:hover{
+    background-color: #FF9500;
+    color: #FFFFFF;
+}
+
+/* ------------------price card section------------------- */
+
+.price-card{
+    background-color: #FFFFFF;
+    max-width: 85%;
+    margin-inline: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+.time-card{
+    width: 500px;
+    background-color: #F1F1F3;
+    border-radius: 8px;
+    /* margin-inline: auto; */
+    padding-bottom: 15px;
+}
+
+.Plan{
+    background-color: #FFEACC;
+    padding: 10px;
+    max-width: 90%;
+    border-radius: 8px;
+    text-align: center;
+    /* margin-inline: auto; */
+    margin: 25px auto;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    /* margin-top: 30px; */
+    margin: 30px 0px 30px 0px;
+}
+
+.main-free-plan{
+    background-color: #FFFFFF;
+    width: 90%;
+    margin-inline: auto;
+    border-radius: 8px;
+    padding: 15px 0px 0px 0px;
+}
+
+.main-free-plan h3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.free-plan{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px;
+    /* background-color: #F1F1F3; */
+    width: 90%;
+    border: 1px solid #F1F1F3;
+    margin-inline: auto;
+    border-radius: 8px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.price-button{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 15px;
+    background-color: #FF9500;
+    /* color: #FFFFFF; */
+    border-radius: 0px 0px 10px 10px;
+}
+
+.price-button button{
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF9500;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* ----------stage-9- pricing------------- */
+
+.Frequently-card-2 h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.main-frequently-card{
+    display: flex;
+    width: 85%;
+    margin-inline: auto;
+    gap: 45px;
+    padding-top: 50px;
+    /* background-color: #FFFFFF; */
+}
+
+.Frequently-card-2 p{
+    line-height: 20px;
+}
+
+.Frequently-card-2{
+    max-width: 340px;
+    padding: 20px;
+}
+
+.Frequently-button button{
+    margin-top: 30px;
+    background: none;
+    padding: 10px;
+    border: 1px solid #F1F1F3;
+    border-radius: 6px;
+}
+
+.para-plus-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #F1F1F3;
+    margin-inline: auto;
+    border-radius: 8px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.para-plus-icon-00{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #F1F1F3;
+    margin-inline: auto;
+    border-radius: 8px;
+    gap: 10px;
+    margin-bottom: 10px;
+    background-color: #F1F1F3;
+}
+
+.Frequently-para{
+    padding: 30px;
+}
+
+.Frequently-para p{
+    line-height: 20px;
+}
+
+.Frequently-second-card-2{
+    padding: 30px;
+    max-width: 700px;
+    border-radius: 9px;
+
+}
+
+.main-frequently-card{
+    padding: 50px;
+    margin-block: 50px;
+    background: #ffffff;
+}
+
+/* ---------- stage-10 Footer-Section ------------- */
+
+.footer-contener{
+    background-color: #FFFFFF;
+    padding: 50px 0px 15px 0px;
+    margin-top: 50px;
+}
+
+.main-fotter{
+    max-width: 85%;
+    margin-inline: auto;
+    background-color: #FFFFFF;
+}
+
+.main-fotter-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-fotter-logo{
+    margin-bottom: 15px;
+}
+
+.main-fotter-logo img{
+    width: 45px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: none;
+    line-height: 35px;
+}
+
+.button-container img{
+    width: 20px;
+}
+
+.button-container p{
+    line-height: 40px;
+}
+
+.home p{
+    line-height: 25px;
+    opacity: 0.9;
+}
+
+.fotter-heading{
+    margin-bottom: 15px;
+}
+
+.sub-container{
+    display: flex;
+    gap: 15px;
+}
+
+.home{
+    width: 180px;
+}
+
+.social-logo-button{
+    display: flex;
+    gap: 10px;
+}
+
+.social-logo-img{
+    padding: 8px;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+}
+
+.social-logo-img img{
+    width: 30px;
+}
+
+.sub-container{
+    display: flex;
+    gap: 15px;
+}
+
+.copy-right{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main-home-container{
+    display: flex;
+    padding-block: 20px;
+}

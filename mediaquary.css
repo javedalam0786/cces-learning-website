@@ -1,0 +1,162 @@
+@media (max-width : 768px) {
+
+/*------------------------- Stage-1 -----------------*/
+
+    .main-navbar{
+        /* display: none; */
+        padding-inline: 20px;
+    }
+
+    .main-navbar a{
+        display: none;
+    }
+
+    .nav-1 p{
+        font-size: 14px;
+    }
+
+    .button{
+        padding-right: 0;
+    }
+
+/*------------------------- Stage-2 -----------------*/
+
+    .container-2{
+        width: 82%;
+        padding: 10px 10px;
+    }
+
+    .container-2 h2{
+        font-size: 14px;
+    }
+
+    .skill-para p {
+        width: 300px;
+        margin: auto;
+    }
+
+/*------------------------- Stage-3 -----------------*/
+
+    #img-2-container{
+        display: none;
+    }
+
+    .img-2{
+        gap: 18px;
+        padding: 15px;
+    }
+
+ /*------------------------- Stage-4 -----------------*/
+
+    .img-container img{
+        width: 100%;
+    }
+
+/*------------------------- Stage-5 -----------------*/
+
+    .benefits-2{
+        display: block;
+    }
+
+    .benefits-2 p{
+        margin-bottom: 20px;
+    }
+
+    .benefits-card{
+        display: block;
+    }
+
+    .benefits-card-1{
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        padding-bottom: 90px;
+    }
+
+    .card p{
+        width: 90%;
+    }
+
+ /*------------------------- Stage-6 -----------------*/
+
+    .card-section-2{
+        width: 100%;
+    }
+    .card-section-2 img{
+        width: 100%;
+    }
+    .Biginner-section{
+        flex-direction: column;
+    }
+    .Biginner-section p{
+        margin-top: 10px;
+    }
+
+/*------------------------- Stage-7 -----------------*/
+
+    .test-card-head, .test-card-head-2{
+        display: block;
+    }
+
+    .testimonials-card-1{
+        margin-bottom: 20px;
+    }
+
+/*------------------------- Stage-8 -----------------*/
+
+    .price-1{
+        display: block;
+    }
+    .price-card{
+        display: block;
+        padding: 20px;
+    }
+    .time-card{
+        width: 100%;
+    }
+
+    .price{
+        margin-bottom: 30px;
+    }
+    .time-cont{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .time-card{
+        /* border: 1px solid red; */
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+/*------------------------- Stage-9 -----------------*/
+
+    .main-frequently-card{
+        display: block;
+    }
+
+    .main-frequently-card{
+        padding: 0;
+    }
+
+    .Frequently-para{
+        padding-inline: 10px;
+    }
+
+/*------------------------- Stage-10 -----------------*/
+
+    .main-fotter-1, .sub-container{
+        display: block;
+    }
+
+    .footer-contener{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .social-logo-img{
+        margin-bottom: 20px;
+    }
+}
